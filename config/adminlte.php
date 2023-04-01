@@ -63,12 +63,14 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo' => '<b>R3M</b>',
+    // 'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'https://drive.google.com/uc?export=download&id=1lrC8kWdoyRTj6tcgfpL8wfiaP2gD8Hao',
+    // 'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo_img_class' => 'brand-image ml-2',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Admin Logo',
+    'logo_img_alt' => 'R3M Logo',
 
     /*
     |--------------------------------------------------------------------------

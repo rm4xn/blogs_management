@@ -28,7 +28,9 @@
                                     <td>
                                         @if (!empty($user->getRoleNames()))
                                             @foreach ($user->getRoleNames() as $role)
-                                                <h5>{{ $role }}</h5>
+                                                @if (!empty($role))
+                                                    <span class="badge badge-dark">{{ $role }}</span>
+                                                @endif
                                             @endforeach
                                         @endif
                                     </td>
