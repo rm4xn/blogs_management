@@ -19,7 +19,6 @@
 			"extensions": [
 				"redhat.vscode-yaml",
 				"EditorConfig.EditorConfig",
-				"GitHub.copilot",
 				"esbenp.prettier-vscode"
 			]
 		}

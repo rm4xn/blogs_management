@@ -57,6 +57,7 @@ class BlogController extends Controller
      */
     public function edit(string $id)
     {
+        $blog = Blog::find($id);
         return view('blogs.edit', compact('blog'));
     }
 
