@@ -19,12 +19,10 @@ class SuperAdminSeeder extends Seeder
             'email' => 'admin@gmail.com',
             'password' => bcrypt('123456'),
         ]);
-        // $role = Role::create(['name' => 'Administrator']);
-        // $permissions = Permission::pluck('id', 'id')->all();
+        $role = Role::create(['name' => 'Administrator']);
+        $permissions = Permission::pluck('id', 'id')->all();
 
-        // $role->syncPermissions($permissions);
-        // $user->assignRole([$role->id]);
-
-        $user->assignRole('Administrator');
+        $role->syncPermissions($permissions);
+        $user->assignRole([$role->id]);
     }
 }
